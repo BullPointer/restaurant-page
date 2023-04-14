@@ -12,5 +12,24 @@
 }
 .content .box .contact-us .details {
     font-size: 22px;
-    opacity: 0;
+    opacity: 0.8;
+    text-align: center;
+}
+.content .box .contact-us img {
+    width: 400px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 30px;
+    border: 2px solid blacks;
+}
+@media only screen and (max-width: 700px) {
+    .content .box .contact-us {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+    .content .box .contact-us img {
+        padding: 10px;
+        max-width: 300px;
+    }
 }

@@ -1,5 +1,4 @@
 import './styling-folder/home.css';
-import Img from './image-folder/restaurant.jpg';
 import foodData from './database/home_database';
 
 function createImgDiv(pics) {

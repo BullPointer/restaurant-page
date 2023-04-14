@@ -1,4 +1,8 @@
-import Img1 from '../image-folder/restaurant.jpg';
+import BlackSoup from '../image-folder/blackSoup.jpg';
+import ChickSoup from '../image-folder/chickSoup.jpg';
+import RedSoup from '../image-folder/redSoup.jpg';
+import Gorilla from '../image-folder/gorillaSoup.jpg';
+import RiceSoup from '../image-folder/riceSoup.jpg';
 export default [
     {
         name: 'Black Berry Recipe', 
@@ -7,7 +11,7 @@ export default [
         Ab nihil vero dolor cum exercitationem voluptatum.
         `, 
         price: '73$', 
-        pics: Img1
+        pics: BlackSoup
     },
     {
         name: 'Chicken Soup', 
@@ -18,7 +22,7 @@ export default [
         Ab nihil vero dolor cum exercitationem voluptatum.
         `, 
         price: '4$', 
-        pics: Img1
+        pics: ChickSoup
     },
     {
         name: 'Banana Soup', 
@@ -27,7 +31,7 @@ export default [
         Ab nihil vero dolor cum exercitationem voluptatum.
         `, 
         price: '2$', 
-        pics: Img1
+        pics: RedSoup
     },
     {   
         name: 'Red Gorrila Soup', whatIs: `
@@ -36,7 +40,7 @@ export default [
         Lorem ipsum dolor 
         `, 
         price: '100$', 
-        pics: Img1
+        pics: Gorilla
     },
     {
         name: 'Facebook Rice', 
@@ -45,6 +49,6 @@ export default [
         Ab nihil vero dolor cum exercitationem voluptatum.
         `, 
         price: '87$', 
-        pics: Img1
+        pics: RiceSoup
     },
 ]

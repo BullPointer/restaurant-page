@@ -33,7 +33,7 @@ export default function() {
     box.classList.add('box');
     const header = document.createElement('div');
     header.classList.add('header');
-    header.textContent = 'The Contact Restaurant';
+    header.textContent = 'Contact Us';
     box.appendChild(header);
 
     for (let index = 0; index < contactData.length; index++) {
